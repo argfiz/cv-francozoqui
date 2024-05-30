@@ -61,8 +61,7 @@ const proyectos = [
       ["Español", "Nativo"],["Inglés", "Bueno"],
     ],
     tecnologias: [
-      ["Html", 9],["Css", 8],["Javascript", 9],["Typescript", 8],["Angular", 8
-      ],["Ionic",7],["Node",6],["Python",5],["C#",3]
+      ["Html", 6],["Css", 6],["Javascript", 7],["Typescript", 1],["React",1],["Node",3]
     ],
     redes: [
       ["github", "https://github.com/cacalo"],
