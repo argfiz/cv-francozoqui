@@ -1,14 +1,5 @@
 const proyectos = [
     {
-      titulo: "Fundamentos de programación y desarrollo web",
-      descripcion:
-        "Obtén una base sólida en computación y pensamiento lógico. Aprende de computación básica, algoritmos, estructuras de datos, lenguajes de programación y manejo de Git y GitHub.",
-      link: "https://platzi.com/p/francozoqui/ruta/7039-web-fundamentos/diploma/detalle/",
-      fecha: "11/04/2024",
-      imagen: "diploma-web-fundamentos.png",
-      tecnologias: ["Git","GitHub"],
-    },
-    {
       titulo: "Javascript a profundidad",
       descripcion:
         "Domina JavaScript el lenguaje más importante para el desarrollo web. Aprende de programación avanzada, conexión con APIs y más.",
@@ -18,32 +9,32 @@ const proyectos = [
       tecnologias: ["HTML","CSS","Javascript"],
     },
     {
-      titulo: "Conector Facebook Ads → Engage CRM",
+      titulo: "Fundamentos de programación y desarrollo web",
       descripcion:
-        "Servicio web que permite sincronizar los leads de una campaña de marketing de Facebook Ads con un CRM llamado Engage.",
+        "Obtén una base sólida en computación y pensamiento lógico. Aprende de computación básica, algoritmos, estructuras de datos, lenguajes de programación y manejo de Git y GitHub.",
+      link: "https://platzi.com/p/francozoqui/ruta/7039-web-fundamentos/diploma/detalle/",
+      fecha: "11/04/2024",
+      imagen: "diploma-web-fundamentos.png",
+      tecnologias: ["Git","GitHub"],
+    },
+    {
+        titulo: "Juego Mokemon",
+        descripcion:
+          "Juego donde debemos elegir un Mokemon y pelear con otros Mokemones manejado por personas reales en caso de chocarse.",
+        link: "https://argfiz.github.io/Mokemon/public/index.html",
+        fecha: "25/12/2023",
+        imagen: "juego-mokemon.png",
+        tecnologias: ["HTML","CSS","Javascript", "Node"],
+    },
+    {
+      titulo: "API Rick & Morty",
+      descripcion:
+        "Consulta a una API Rest utilizando herramientas asincronicas de JavaScript.",
       link: "",
-      fecha: "01/08/2023",
-      imagen: "NDA.png",
+      fecha: "25/10/2023",
+      imagen: "api-rick&morty.png",
       tecnologias: ["HTML","CSS","Javascript"],
     },
-    {
-        titulo: "Conector Facebook Ads → Engage CRM",
-        descripcion:
-          "Servicio web que permite sincronizar los leads de una campaña de marketing de Facebook Ads con un CRM llamado Engage.",
-        link: "",
-        fecha: "01/08/2023",
-        imagen: "NDA.png",
-        tecnologias: ["HTML","CSS","Javascript"],
-    },
-    {
-        titulo: "Conector Facebook Ads → Engage CRM",
-        descripcion:
-          "Servicio web que permite sincronizar los leads de una campaña de marketing de Facebook Ads con un CRM llamado Engage.",
-        link: "",
-        fecha: "01/08/2023",
-        imagen: "NDA.png",
-        tecnologias: ["HTML","CSS","Javascript"],
-    },  
   ];
   
   const informacionPersonal = {
