@@ -5,7 +5,7 @@ const proyectos = [
         "Obtén una base sólida en computación y pensamiento lógico. Aprende de computación básica, algoritmos, estructuras de datos, lenguajes de programación y manejo de Git y GitHub.",
       link: "https://platzi.com/p/francozoqui/ruta/7039-web-fundamentos/diploma/detalle/",
       fecha: "11/04/2024",
-      imagen: "diploma-web-fundamentos.png",
+      imagen: "/img/proyectos/diploma-web-fundamentos.png",
       tecnologias: ["",""],
     },
     {
@@ -14,7 +14,7 @@ const proyectos = [
         "Domina JavaScript el lenguaje más importante para el desarrollo web. Aprende de programación avanzada, conexión con APIs y más.",
       link: "https://platzi.com/p/francozoqui/ruta/7041-web-javascript/diploma/detalle/",
       fecha: "28/05/2024",
-      imagen: "diploma-web-javascript.png",
+      imagen: "/img/proyectos/diploma-web-javascript.png",
       tecnologias: ["HTML","CSS","Javascript"],
     },
     {
