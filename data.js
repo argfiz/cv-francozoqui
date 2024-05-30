@@ -1,20 +1,20 @@
 const proyectos = [
     {
-      titulo: "CRM personalizado",
+      titulo: "Fundamentos de programación y desarrollo web",
       descripcion:
-        "CRM creado desde cero para administrar la relación con los clientes de una empresa de seguros. Incluye la gestión de leads desde distintos roles, parametrización viva, roles y permisos. El proyecto está actualmente en curso.",
-      link: "",
-      fecha: "01/12/2023",
-      imagen: "NDA.png",
-      tecnologias: ["Angular",""],
+        "Obtén una base sólida en computación y pensamiento lógico. Aprende de computación básica, algoritmos, estructuras de datos, lenguajes de programación y manejo de Git y GitHub.",
+      link: "https://platzi.com/p/francozoqui/ruta/7039-web-fundamentos/diploma/detalle/",
+      fecha: "11/04/2024",
+      imagen: "diploma-web-fundamentos.png",
+      tecnologias: ["",""],
     },
     {
-      titulo: "Curso Front end con Angular",
+      titulo: "Javascript a profundidad",
       descripcion:
-        "Curso que se compone de 8 horas de puro contenido separado en 17 videos en donde enseño como crear aplicaciones web utilizando Angular.",
-      link: "https://www.youtube.com/playlist?list=PL3Qv7aeTNq0eChWdLTbxelz-5d6ZTBp3i",
-      fecha: "01/06/2023",
-      imagen: "curso_angular_1.png",
+        "Domina JavaScript el lenguaje más importante para el desarrollo web. Aprende de programación avanzada, conexión con APIs y más.",
+      link: "https://platzi.com/p/francozoqui/ruta/7041-web-javascript/diploma/detalle/",
+      fecha: "28/05/2024",
+      imagen: "diploma-web-javascript.png",
       tecnologias: ["HTML","CSS","Javascript"],
     },
     {
