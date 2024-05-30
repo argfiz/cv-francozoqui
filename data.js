@@ -64,9 +64,9 @@ const proyectos = [
       ["Html", 6],["Css", 6],["Javascript", 7],["Typescript", 1],["React",1],["Node",3]
     ],
     redes: [
-      ["github", "https://github.com/cacalo"],
-      ["linkedin", "https://www.linkedin.com/in/gonzalo-bechara-baladi-05b14353/"],
-      ["youtube", "https://www.youtube.com/@puntoJson"],
+      ["github", "https://github.com/argfiz"],
+      ["linkedin", "https://www.linkedin.com/in/franco-zoqui-35453456/"],
+      ["youtube", ""],
       ["instagram", ""],
     ]
   };
