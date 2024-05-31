@@ -30,7 +30,7 @@ const proyectos = [
       titulo: "API Rick & Morty",
       descripcion:
         "Consulta a una API Rest utilizando herramientas asincronicas de JavaScript.",
-      link: "",
+      link: "https://argfiz.github.io/api-rick-morty/",
       fecha: "25/10/2023",
       imagen: "api-rick&morty.png",
       tecnologias: ["HTML","CSS","Javascript"],
