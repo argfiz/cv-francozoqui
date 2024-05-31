@@ -208,6 +208,9 @@
   
   footer{
     text-align: center;
+    font-size: 26px;
+    background-color: #1e1919bc;
+    margin-top: 15px;
   }
   
   footer a{
