@@ -40,7 +40,7 @@ const proyectos = [
   const informacionPersonal = {
     nombre: "Franco Ignacio Zoqui",
     subtitulo: "Desarrollador web",
-    imagen: "img/calo1.png",
+    imagen: "img/argfiz1.png",
     otros: [
       ["Nacionalidad", "Argentino"],
       [
