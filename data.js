@@ -59,6 +59,7 @@ const proyectos = [
       ["linkedin", "https://www.linkedin.com/in/franco-zoqui-35453456/"],
       ["youtube", ""],
       ["instagram", ""],
+      ["facebook", "https://www.facebook.com/fizoqui"],
     ]
   };
   
