@@ -52,7 +52,7 @@ const proyectos = [
       ["Español", "Nativo"],["Inglés", "Bueno"],
     ],
     tecnologias: [
-      ["Html", 6],["Css", 6],["Javascript", 7],["Typescript", 1],["React",1],["Node",3]
+      ["Html", 6],["Css", 6],["Javascript", 7],["Typescript", 1],["React",1],["Node",3],["PostgreSQL",1]
     ],
     redes: [
       ["github", "https://github.com/argfiz"],
