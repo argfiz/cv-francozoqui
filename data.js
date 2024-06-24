@@ -36,7 +36,7 @@ const proyectos = [
       tecnologias: ["HTML","CSS","Javascript"],
     },
   ];
-  lttlllg
+  
   const informacionPersonal = {
     nombre: "Franco Ignacio Zoqui",
     subtitulo: "Desarrollador web",
@@ -52,7 +52,7 @@ const proyectos = [
       ["Español", "Nativo"],["Inglés", "Bueno"],
     ],
     tecnologias: [
-      ["Javascript", 7],["Html", 6],["Css", 6],["React",4],["Node",3],["PostgreSQL",1],["Typescript", 1]
+      ["Javascript", 7],["Html", 6],["Css", 6],["React",4],["Node",3],["Typescript", 1],["PostgreSQL",1]
     ],
     redes: [
       ["github", "https://github.com/argfiz"],
