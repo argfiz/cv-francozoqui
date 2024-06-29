@@ -61,9 +61,8 @@ const makeTecnologias = () => {
     nuevoTecnologias.innerHTML += `
     <div>
       <span>${dato[0]}</span>
-      <span>${dato[1]}</span>
     </div>
-      <progress max="10" value="${dato[1]}">
+      
     `
   })
   aside.appendChild(nuevoTecnologias);

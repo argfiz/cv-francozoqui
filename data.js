@@ -1,5 +1,14 @@
 const proyectos = [
     {
+      titulo: "e-commerce",
+      descripcion:
+        "App donde demuestro habilidades con Next, React, TailWind y JavaScript implementando buenas practicas y alcanzando la mayor absraccion deseada",
+      link: "https://platzi.com/p/francozoqui/ruta/7041-web-javascript/diploma/detalle/",
+      fecha: "25/06/2024",
+      imagen: "under-construction.png",
+      tecnologias: ["Next","React","HTML", "Tailwind","Javascript"],
+    },
+    {
       titulo: "Javascript a profundidad",
       descripcion:
         "Domina JavaScript el lenguaje más importante para el desarrollo web. Aprende de programación avanzada, conexión con APIs y más.",
@@ -52,7 +61,7 @@ const proyectos = [
       ["Español", "Nativo"],["Inglés", "Bueno"],
     ],
     tecnologias: [
-      ["Javascript", 7],["Html", 6],["Css", 6],["React",4],["Node",3],["Typescript", 1],["PostgreSQL",1]
+      ["Javascript", 7],["Html", 6],["Css", 6],["Next",4],["React",4],["Node",3],["PostgreSQL",1]
     ],
     redes: [
       ["github", "https://github.com/argfiz"],
