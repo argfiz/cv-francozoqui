@@ -5,7 +5,7 @@ const proyectos = [
         "App donde demuestro habilidades con Next, React, TailWind y JavaScript implementando buenas practicas y alcanzando la mayor absraccion deseada",
       link: "https://platzi.com/p/francozoqui/ruta/7041-web-javascript/diploma/detalle/",
       fecha: "25/06/2024",
-      imagen: "under-construction.png",
+      imagen: "e-commerce.png",
       tecnologias: ["Next","React","HTML", "Tailwind","Javascript"],
     },
     {
