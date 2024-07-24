@@ -1,12 +1,12 @@
 const proyectos = [
     {
-      titulo: "e-commerce",
+      titulo: "E-commerce",
       descripcion:
-        "App donde demuestro habilidades con Next, React, TailWind y JavaScript implementando buenas practicas y alcanzando la mayor absraccion deseada",
-      link: "",
-      fecha: "25/06/2024",
+        "App donde demuestro habilidades con Next, React, TailWind, JavaScript, Node y postgreSQL implementando buenas practicas y alcanzando la mayor abstraccion deseada",
+      link: "https://github.com/argfiz/e-commerce",
+      fecha: "10/07/2024",
       imagen: "e-commerce.png",
-      tecnologias: ["Next","React","HTML", "Tailwind","Javascript"],
+      tecnologias: ["Next","React","HTML", "Tailwind","Javascript", "Node, PostgreSQL"],
     },
     {
       titulo: "Javascript a profundidad",

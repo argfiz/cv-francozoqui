@@ -1,0 +1,24 @@
+{
+  "name": "cv-francozoqui",
+  "version": "1.0.0",
+  "description": "Franco Zoqui portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/argfiz/cv-francozoqui.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Franco Zoqui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/argfiz/cv-francozoqui/issues"
+  },
+  "homepage": "https://github.com/argfiz/cv-francozoqui#readme"
+}
