@@ -2,11 +2,11 @@ const proyectos = [
     {
       titulo: "E-commerce",
       descripcion:
-        "App donde demuestro habilidades con Next, React, TailWind, JavaScript, Node y postgreSQL implementando buenas practicas y alcanzando la mayor abstraccion deseada",
+        "App donde demuestro habilidades con React, TailWind, JavaScript, Node y postgreSQL implementando buenas practicas y alcanzando la mayor abstraccion deseada",
       link: "https://github.com/argfiz/e-commerce",
       fecha: "10/07/2024",
       imagen: "e-commerce.png",
-      tecnologias: ["Next","React","HTML", "Tailwind","Javascript", "Node, PostgreSQL"],
+      tecnologias: ["React","HTML", "CSS", "Tailwind","Javascript", "Node, PostgreSQL"],
     },
     {
       titulo: "Javascript a profundidad",
@@ -61,7 +61,7 @@ const proyectos = [
       ["Español", "Nativo"],["Inglés", "Bueno"],
     ],
     tecnologias: [
-      ["Javascript", 7],["Html", 6],["Css", 6],["Next",4],["React",4],["Node",3],["PostgreSQL",1]
+      ["HTML", 6], ["CSS", 6], ["REACT", 4], ["JS", 7], ["NODE", 3], ["PostgreSQL", 1]
     ],
     redes: [
       ["github", "https://github.com/argfiz"],
