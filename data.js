@@ -30,7 +30,7 @@ const proyectos = [
         titulo: "Juego Mokemon",
         descripcion:
           "Juego donde debemos elegir un Mokemon y pelear con otros Mokemones manejado por personas reales en caso de chocarse.",
-        link: "https://argfiz.github.io/Mokemon/public/index.html",
+        link: "https://github.com/argfiz/mokemon",
         fecha: "25/12/2023",
         imagen: "juego-mokemon.png",
         tecnologias: ["HTML","CSS","Javascript", "Node"],
