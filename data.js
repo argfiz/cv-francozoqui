@@ -1,5 +1,14 @@
 const proyectos = [
-    {
+  {
+    titulo: "Full Stack Developer con JavaScript",
+    descripcion:
+      "Domina JavaScript, Node y React",
+    link: "https://platzi.com/p/francozoqui/ruta/100-javascript-full-stack/diploma/detalle/",
+    fecha: "01/08/2024",
+    imagen: "diploma-javascript-full-stack.png",
+    tecnologias: ["HTML", "CSS", "React", "Javascript", "Node"],
+  },
+  {
       titulo: "E-commerce",
       descripcion:
         "App donde demuestro habilidades con React, TailWind, JavaScript, Node y postgreSQL implementando buenas practicas y alcanzando la mayor abstraccion deseada",
@@ -61,7 +70,7 @@ const proyectos = [
       ["Español", "Nativo"],["Inglés", "Bueno"],
     ],
     tecnologias: [
-      ["HTML", 6], ["CSS", 6], ["REACT", 4], ["JS", 7], ["NODE", 3], ["PostgreSQL", 1]
+      ["HTML", 6], ["CSS", 6], ["REACT", 4], ["JS", 7], ["NODE", 3], ["DOCKER", 1]
     ],
     redes: [
       ["github", "https://github.com/argfiz"],
