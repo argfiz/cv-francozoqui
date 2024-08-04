@@ -2,20 +2,29 @@ const proyectos = [
   {
     titulo: "Full Stack Developer con JavaScript",
     descripcion:
-      "Domina JavaScript, Node y React",
+      "Capaz de desarrollar tanto el frontend como el backend de aplicaciones web. HTML, CSS, y frameworks/librerías como React para el frontend, Node.js, Express y SQL para el backend. APIs RESTful, Docker, todo mientras aplica buenas prácticas de seguridad, testing, y optimización del rendimiento.",
     link: "https://platzi.com/p/francozoqui/ruta/100-javascript-full-stack/diploma/detalle/",
     fecha: "01/08/2024",
     imagen: "diploma-javascript-full-stack.png",
     tecnologias: ["HTML", "CSS", "React", "Javascript", "Node"],
   },
   {
+    titulo: "E-commerce my store",
+    descripcion:
+      "Permite la gestión de productos, usuarios, ordenes, login, etc. Utiliza Express.js para construir el servidor, Joi para la validación de datos, Boom para control de errores y PostgreSQL como base de datos. Docker, Sequelize para el ORM, bcrypt y passport.",
+    link: "https://github.com/argfiz/e-commerce-my-store",
+    fecha: "19/07/2024",
+    imagen: "create-customer.png",
+    tecnologias: ["Javascript", "Node, PostgreSQL"],
+  },
+  {
       titulo: "E-commerce",
       descripcion:
-        "App donde demuestro habilidades con React, TailWind, JavaScript, Node y postgreSQL implementando buenas practicas y alcanzando la mayor abstraccion deseada",
+        "App donde demuestro habilidades con React, TailWind, JavaScript, implementando buenas practicas y alcanzando la mayor abstraccion deseada",
       link: "https://github.com/argfiz/e-commerce",
       fecha: "10/07/2024",
       imagen: "e-commerce.png",
-      tecnologias: ["React","HTML", "CSS", "Tailwind","Javascript", "Node, PostgreSQL"],
+      tecnologias: ["React","HTML", "CSS", "Tailwind","Javascript"],
     },
     {
       titulo: "Javascript a profundidad",
