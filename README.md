@@ -7,7 +7,7 @@
 - **Lenguajes de programación**: JavaScript, SQL
 
 - **Frontend**: React, HTML, CSS
-
+-
 - **Backend**: Node.js, Express, Sequelize, Passport
 
 - **Base de datos**: PostgreSQL
