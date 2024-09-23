@@ -59,10 +59,9 @@ const makeTecnologias = () => {
   nuevoTecnologias.id = "tecnologias";
   informacionPersonal.tecnologias.forEach(dato => {
     nuevoTecnologias.innerHTML += `
-    <div>
+    
       <span>${dato[0]}</span>
-    </div>
-      
+    
     `
   })
   aside.appendChild(nuevoTecnologias);

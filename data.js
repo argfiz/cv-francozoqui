@@ -79,7 +79,13 @@ const proyectos = [
       ["Español", "Nativo"],["Inglés", "Bueno"],
     ],
     tecnologias: [
-      ["HTML", 6], ["CSS", 6], ["REACT", 4], ["JS", 7], ["NODE", 3], ["DOCKER", 1]
+      [`<img src="img/iconos/html.png" alt="html">`, 6], 
+      [`<img src="img/iconos/css.png" alt="css">`, 6], 
+      [`<img src="img/iconos/react.png" alt="react">`, 4], 
+      [`<img src="img/iconos/js.png" alt="js">`, 7], 
+      [`<img src="img/iconos/node.png" alt="node">`, 3], 
+      [`<img src="img/iconos/docker.png" alt="docker">`, 1], 
+      [`<img src="img/iconos/sql.png" alt="docker">`, 1]
     ],
     redes: [
       ["github", "https://github.com/argfiz"],
