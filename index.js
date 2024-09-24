@@ -60,7 +60,7 @@ const makeTecnologias = () => {
   informacionPersonal.tecnologias.forEach(dato => {
     nuevoTecnologias.innerHTML += `
     
-      <span>${dato[0]}</span>
+      ${dato[0]}
     
     `
   })

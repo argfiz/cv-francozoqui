@@ -11,7 +11,7 @@ const proyectos = [
   {
     titulo: "E-commerce my store",
     descripcion:
-      "Permite la gestión de productos, usuarios, ordenes, login, etc. Utiliza Express.js para construir el servidor, Joi para la validación de datos, Boom para control de errores y PostgreSQL como base de datos. Docker, Sequelize para el ORM, bcrypt y passport.",
+      "Permite la gestión de productos, usuarios, ordenes, login, etc. desde el lado del servidor atravez de una APIrest. Utiliza Express.js para facilitar la construccion de una aplicacion web manejando rutas y middleware. Joi para la validación de datos, Boom para control de errores y PostgreSQL como base de datos. Docker, Sequelize para el ORM, bcrypt y passport.",
     link: "https://github.com/argfiz/e-commerce-my-store",
     fecha: "21/07/2024",
     imagen: "create-customer.png",
