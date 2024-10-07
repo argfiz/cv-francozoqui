@@ -1,5 +1,14 @@
 const proyectos = [
   {
+    titulo: "Direct Chat",
+    descripcion:
+      "El proyecto WebChat es una aplicación de chat en tiempo real que permite a los usuarios comunicarse entre sí a travez de WebSocket con la herramientas como Express.js, Socket.io ",
+    link: "https://github.com/argfiz/webchat/blob/main/README.md",
+    fecha: "07/10/2024",
+    imagen: "webchat.png",
+    tecnologias: ["HTML", "CSS", "Javascript", "Node"],
+  },
+  {
     titulo: "Full Stack Developer con JavaScript",
     descripcion:
       "Capaz de desarrollar tanto el frontend como el backend de aplicaciones web. HTML, CSS, y frameworks/librerías como React para el frontend, Node.js, Express y SQL para el backend. APIs RESTful, Docker, todo mientras aplica buenas prácticas de seguridad, testing, y optimización del rendimiento.",
