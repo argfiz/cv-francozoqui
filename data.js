@@ -1,5 +1,14 @@
 const proyectos = [
   {
+    titulo: "TypeScript",
+    descripcion:
+      "Mejora la calidad de tu código con TypeScript. Aprende tipos avanzados y programación orientada a objetos para proyectos robustos.Aumenta la seguridad de tu código con TypeScript.",
+    link: "https://platzi.com/p/francozoqui/ruta/23320-typescript/diploma/detalle/",
+    fecha: "25/10/2024",
+    imagen: "diploma-typescript.png",
+    tecnologias: ["TypeScript"],
+  },
+  {
     titulo: "Direct Chat",
     descripcion:
       "El proyecto WebChat es una aplicación de chat en tiempo real que permite a los usuarios comunicarse entre sí a travez de WebSocket con la herramientas como Express.js, Socket.io ",
