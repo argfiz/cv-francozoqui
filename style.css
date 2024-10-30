@@ -159,9 +159,15 @@
     ;
   }
   
-  #presentacion div, #idiomas div,#tecnologias div{
+  #presentacion div, #idiomas div{
     display: flex;
     justify-content: space-between;
+  }
+
+  #tecnologias{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
   }
   
   aside div span:last-child{
