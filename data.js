@@ -101,6 +101,7 @@ const proyectos = [
       [`<img src="img/iconos/css.png" alt="css">`, 6], 
       [`<img src="img/iconos/react.png" alt="react">`, 4], 
       [`<img src="img/iconos/js.png" alt="js">`, 7], 
+      [`<img src="img/iconos/typescript.png" alt="js">`, 7], 
       [`<img src="img/iconos/node.png" alt="node">`, 3], 
       [`<img src="img/iconos/docker.png" alt="docker">`, 1], 
       [`<img src="img/iconos/sql.png" alt="docker">`, 1]
