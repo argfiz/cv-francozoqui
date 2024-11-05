@@ -1,5 +1,14 @@
 const proyectos = [
   {
+    titulo: "E-commerce",
+    descripcion:
+      "App donde demuestro habilidades con React, TailWind, JavaScript, implementando buenas practicas y alcanzando la mayor abstraccion deseada",
+    link: "https://argfiz.github.io/e-commerce/",
+    fecha: "10/07/2024",
+    imagen: "e-commerce.png",
+    tecnologias: ["React","HTML", "CSS", "Tailwind","Javascript"],
+  },
+  {
     titulo: "TypeScript",
     descripcion:
       "Mejora la calidad de tu código con TypeScript. Aprende tipos avanzados y programación orientada a objetos para proyectos robustos.Aumenta la seguridad de tu código con TypeScript.",
@@ -35,15 +44,6 @@ const proyectos = [
     imagen: "create-customer.png",
     tecnologias: ["Javascript", "Node, PostgreSQL"],
   },
-  {
-      titulo: "E-commerce",
-      descripcion:
-        "App donde demuestro habilidades con React, TailWind, JavaScript, implementando buenas practicas y alcanzando la mayor abstraccion deseada",
-      link: "https://github.com/argfiz/e-commerce",
-      fecha: "10/07/2024",
-      imagen: "e-commerce.png",
-      tecnologias: ["React","HTML", "CSS", "Tailwind","Javascript"],
-    },
     {
       titulo: "Javascript a profundidad",
       descripcion:
