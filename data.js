@@ -107,6 +107,7 @@ const proyectos = [
       [`<img src="img/iconos/nestjs.png" alt="nestjs">`, 1], 
       [`<img src="img/iconos/docker.png" alt="docker">`, 1], 
       [`<img src="img/iconos/sql.png" alt="sql">`, 1],
+      [`<img src="img/iconos/postgres.png" alt="postgres">`, 1],
       
     ],
     redes: [
