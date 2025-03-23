@@ -2,29 +2,47 @@ const proyectos = [
   {
     titulo: "E-commerce",
     descripcion:
-      "App donde demuestro habilidades con React, TailWind, JavaScript, implementando buenas practicas y alcanzando la mayor abstraccion deseada",
+      "Una aplicación de comercio electrónico donde demuestro mis habilidades en React, Tailwind CSS, JavaScript, Node.js y PostgreSQL. Este proyecto incluye funciones como un carrito de compras, inicio de sesión y más, demostrando mi capacidad para seguir las mejores prácticas y lograr niveles óptimos de abstracción.",
     link: "https://argfiz.github.io/e-commerce/",
     fecha: "10/07/2024",
     imagen: "e-commerce.png",
     tecnologias: ["React","HTML", "CSS", "Tailwind","Javascript"],
   },
   {
-    titulo: "TypeScript",
+    titulo: "E-commerce my store",
     descripcion:
-      "Mejora la calidad de tu código con TypeScript. Aprende tipos avanzados y programación orientada a objetos para proyectos robustos.Aumenta la seguridad de tu código con TypeScript.",
-    link: "https://platzi.com/p/francozoqui/ruta/23320-typescript/diploma/detalle/",
-    fecha: "25/10/2024",
-    imagen: "diploma-typescript.png",
-    tecnologias: ["TypeScript"],
-  },
+      "Permite la gestión de productos, usuarios, ordenes, login, etc. desde el lado del servidor atravez de una APIrest. Utiliza Express.js para facilitar la construccion de una aplicacion web manejando rutas y middleware. Joi para la validación de datos, Boom para control de errores y PostgreSQL como base de datos. Docker, Sequelize para el ORM, bcrypt y passport.",
+    link: "https://github.com/argfiz/e-commerce-my-store",
+    fecha: "27/07/2024",
+    imagen: "create-customer.png",
+    tecnologias: ["Javascript", "Node, PostgreSQL"],
+  },  
   {
-    titulo: "Direct Chat",
+    titulo: "WebChat",
     descripcion:
-      "El proyecto WebChat es una aplicación de chat en tiempo real que permite a los usuarios comunicarse entre sí a travez de WebSocket con la herramientas como Express.js, Socket.io ",
+      "WebChat es una aplicación de chat en tiempo real desarrollada con Express.js, Socket.io, HTML, CSS, JavaScript y Node.js, que permite la comunicación entre usuarios mediante WebSocket, asegurando una experiencia fluida y dinámica en cualquier dispositivo",
     link: "https://github.com/argfiz/webchat/blob/main/README.md",
     fecha: "07/10/2024",
     imagen: "webchat.png",
     tecnologias: ["HTML", "CSS", "Javascript", "Node"],
+  },
+  {
+    titulo: "Backend con Node.js",
+    descripcion:
+      "La especializacion en JavaScript con Node.js me permite crear proyectos backend a alta velocidad usando herramientas avanzadas para escalar y monitorear aplicaciones web.",
+    link: "https://platzi.com/p/francozoqui/ruta/7048-web-node/diploma/detalle/",
+    fecha: "25/10/2024",
+    imagen: "diploma-web-node.png",
+    tecnologias: ["Node"],
+  },
+  {
+    titulo: "Frontend con React.js",
+    descripcion:
+      "La especilizacion en React.js, me permite dominar la herramienta más demandada y en mayor crecimiento de JavaScript para desarrollo frontend.",
+    link: "https://platzi.com/p/francozoqui/ruta/7043-web-react/diploma/detalle/",
+    fecha: "07/12/2024",
+    imagen: "diploma-web-react.png",
+    tecnologias: ["React"],
   },
   {
     titulo: "Full Stack Developer con JavaScript",
@@ -36,51 +54,33 @@ const proyectos = [
     tecnologias: ["HTML", "CSS", "React", "Javascript", "Node"],
   },
   {
-    titulo: "E-commerce my store",
+    titulo: "TypeScript",
     descripcion:
-      "Permite la gestión de productos, usuarios, ordenes, login, etc. desde el lado del servidor atravez de una APIrest. Utiliza Express.js para facilitar la construccion de una aplicacion web manejando rutas y middleware. Joi para la validación de datos, Boom para control de errores y PostgreSQL como base de datos. Docker, Sequelize para el ORM, bcrypt y passport.",
-    link: "https://github.com/argfiz/e-commerce-my-store",
-    fecha: "21/07/2024",
-    imagen: "create-customer.png",
-    tecnologias: ["Javascript", "Node, PostgreSQL"],
+      "Capacidad de mejorar la calidad de tu código con TypeScript. Con tipos avanzados y programación orientada a objetos para proyectos robustos.Aumentando la seguridad del código con TypeScript.",
+    link: "https://platzi.com/p/francozoqui/ruta/23320-typescript/diploma/detalle/",
+    fecha: "25/10/2024",
+    imagen: "diploma-typescript.png",
+    tecnologias: ["TypeScript"],
   },
-    {
-      titulo: "Javascript a profundidad",
-      descripcion:
-        "Domina JavaScript el lenguaje más importante para el desarrollo web. Aprende de programación avanzada, conexión con APIs y más.",
-      link: "https://platzi.com/p/francozoqui/ruta/7041-web-javascript/diploma/detalle/",
-      fecha: "28/05/2024",
-      imagen: "diploma-web-javascript.png",
-      tecnologias: ["HTML","CSS","Javascript"],
-    },
-    {
-      titulo: "Fundamentos de programación y desarrollo web",
-      descripcion:
-        "Obtén una base sólida en computación y pensamiento lógico. Aprende de computación básica, algoritmos, estructuras de datos, lenguajes de programación y manejo de Git y GitHub.",
-      link: "https://platzi.com/p/francozoqui/ruta/7039-web-fundamentos/diploma/detalle/",
-      fecha: "11/04/2024",
-      imagen: "diploma-web-fundamentos.png",
-      tecnologias: ["Git","GitHub"],
-    },
-    {
-        titulo: "Juego Mokemon",
-        descripcion:
-          "Juego donde debemos elegir un Mokemon y pelear con otros Mokemones manejado por personas reales en caso de chocarse.",
-        link: "https://github.com/argfiz/mokemon",
-        fecha: "25/12/2023",
-        imagen: "juego-mokemon.png",
-        tecnologias: ["HTML","CSS","Javascript", "Node"],
-    },
-    {
-      titulo: "API Rick & Morty",
-      descripcion:
-        "Consulta a una API Rest utilizando herramientas asincronicas de JavaScript.",
-      link: "https://argfiz.github.io/api-rick-morty/",
-      fecha: "25/10/2023",
-      imagen: "api-rick&morty.png",
-      tecnologias: ["HTML","CSS","Javascript"],
-    },
-  ];
+  {
+    titulo: "Juego de Monstruos",
+    descripcion:
+          "Un juego interactivo en el que los jugadores seleccionan un monstruo y compiten en emocionantes batallas contra otros monstruos controlados por usuarios reales. Las batallas comienzan cuando se encuentran o chocan entre sí. Este proyecto utiliza tecnologías como HTML, CSS, JavaScript y Node.js para ofrecer una experiencia dinámica e inmersiva.",
+    link: "https://github.com/argfiz/mokemon",
+    fecha: "25/12/2023",
+    imagen: "juego-mokemon.png",
+    tecnologias: ["HTML","CSS","Javascript", "Node"],
+  },
+  {
+    titulo: "API Rick & Morty",
+    descripcion:
+        "Un proyecto que consulta la API de Rick y Morty para recuperar y mostrar información sobre personajes, ubicaciones y episodios de la serie. Utilizo herramientas JavaScript asíncronas, como la gestión de promesas, para interactuar eficientemente con la API, renderizando los datos en una interfaz dinámica y atractiva.",
+    link: "https://argfiz.github.io/api-rick-morty/",
+    fecha: "5/10/2023",
+    imagen: "api-rick&morty.png",
+    tecnologias: ["HTML","CSS","Javascript"],
+  },
+];
   
   const informacionPersonal = {
     nombre: "Franco Ignacio Zoqui",
@@ -94,7 +94,7 @@ const proyectos = [
       ],
     ],
     idiomas: [
-      ["Español", "Nativo"],["Inglés", "Bueno"],
+      ["Español", "Nativo"],["Inglés", "B1"],
     ],
     tecnologias: [
       [`<img src="img/iconos/html.png" alt="html">`, 6], 
@@ -111,10 +111,11 @@ const proyectos = [
       
     ],
     redes: [
-      ["github", "https://github.com/argfiz"],
+
       ["linkedin", "https://www.linkedin.com/in/franco-zoqui-35453456/"],
-      ["youtube", ""],
-      ["instagram", ""],
+      ["github", "https://github.com/argfiz"],
+      ["platzi", "https://platzi.com/p/francozoqui/"],
+      ["instagram", "https://www.instagram.com/francozoqui/?hl=es"],
       ["facebook", "https://www.facebook.com/fizoqui"],
     ]
   };

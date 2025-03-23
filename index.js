@@ -10,29 +10,32 @@ const getTecnologias = (tecnologias) => {
 };
 
 const getProyecto = (proyecto) => `
-  <img src='img/proyectos/${proyecto.imagen}' alt='${proyecto.titulo} loading="lazy"'>
+  <img src='img/proyectos/${proyecto.imagen}' alt='${proyecto.titulo} loading="lazy"' style="width: 100%; height: 250px;  ">
   <div>
     <h3>${proyecto.titulo}</h3>
     <p>${proyecto.descripcion}</p>
     <p>Tecnologías: ${getTecnologias(proyecto.tecnologias)}</p>
+    <br>
   </div>
-
-  <a ${proyecto.link ? 'href='+proyecto.link : "class=disabled"} target="_blank">Ver proyecto</a>
+  
+  <a ${proyecto.link ? 'href='+proyecto.link : "class=disabled"} style="padding-top: 10px; padding-bottom: 10px; display: inline-block; text-transform: uppercase;"  target="_blank">Ver proyecto</a>
 `;
 
 const makePresentacion = () => {
   const nuevaPresentación = document.createElement("div");
   nuevaPresentación.classList = "presentacion";
   nuevaPresentación.innerHTML +=`
-    <img src="${informacionPersonal.imagen}">
+    <img src="${informacionPersonal.imagen}" style="width: 100%; max-width: 250px; height: 100%; max-height: 250px">
+    <br>
+    <br>
   `
   // nuevaPresentación.innerHTML += `
   // <h2>${informacionPersonal.nombre}<h2>
   // `
   informacionPersonal.otros.forEach(dato => {
     nuevaPresentación.innerHTML += `
-    <div>
-      <span>${dato[0]}:</span>
+    <div style="display: flex; justify-content: center; align-items: center;">
+      <span style="font-size: 16px; font-weight: bold; color: #e6e4c6;">${dato[0]}:</span>
       <span>${dato[1]}</span>
     </div>
     `
@@ -45,8 +48,8 @@ const makeIdiomas = () => {
   nuevoIdiomas.classList = "idiomas";
   informacionPersonal.idiomas.forEach(dato => {
     nuevoIdiomas.innerHTML += `
-    <div>
-      <span>${dato[0]}:</span>
+    <div style="display: flex; justify-content: center; align-items: center;">
+      <span style="font-size: 16px; font-weight: bold; color: #e6e4c6;">${dato[0]}:</span>
       <span>${dato[1]}</span>
     </div>
     `
@@ -74,8 +77,7 @@ const makeRedes = () => {
     if(dato[1]!== ""){
       nuevoRedes.innerHTML += `
       <a href=${dato[1]} target="_blank">
-        <img src=${getIconoRed(dato[0])}>
-      </a>
+        <img src=${getIconoRed(dato[0])} style="width: 30px; height: 30px;"</a>
       `
     }
     })
@@ -97,6 +99,8 @@ const getIconoRed = (red)=>{
       return urlBase+"youtube.svg";
     case "github":
       return urlBase+"github.svg";
+    case "platzi":
+      return urlBase+"platzi.png";
     default:
       return urlBase+"globe-solid.svg";
   }
