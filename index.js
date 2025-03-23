@@ -57,18 +57,18 @@ const makeIdiomas = () => {
   aside.appendChild(nuevoIdiomas);
 }
 
+
 const makeTecnologias = () => {
   const nuevoTecnologias = document.createElement("div");
   nuevoTecnologias.id = "tecnologias";
   informacionPersonal.tecnologias.forEach(dato => {
     nuevoTecnologias.innerHTML += `
-    
       ${dato[0]}
-    
     `
   })
   aside.appendChild(nuevoTecnologias);
 }
+
 
 const makeRedes = () => {
   const nuevoRedes = document.createElement("div");
@@ -117,3 +117,4 @@ makePresentacion();
 makeIdiomas();
 makeTecnologias();
 makeRedes();
+makeContacto();
