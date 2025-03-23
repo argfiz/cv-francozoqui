@@ -3,7 +3,7 @@
     --color-text-titulos: #ffffff;
     --color-texto: rgba(255, 255, 255, 0.867);
     --color-acento: #E6E4C6;
-    --color-fondo: #122b59;
+    --color-fondo: #515151;
     --color-fondo-tarjeta: #ffffff27;
   }
   
@@ -34,8 +34,10 @@
   header{
     margin-left: 20px;
     grid-area: header;
-    background-image: url("./img/fondo.jpg");
-    background-color: #000000;
+    /*background-image: url("./img/fondo.jpg");*/
+    /*background-color: #000000;*/
+    background: rgb(29,29,42);
+    background: linear-gradient(0deg, rgba(29,29,42,1) 23%, rgba(54,54,75,1) 73%); 
     display: flex;
     justify-content: space-between;
     border-bottom-left-radius: 5px;
@@ -119,7 +121,9 @@
   }
   
   .tarjeta{
-    background-color: var(--color-fondo-tarjeta) ;
+    background: rgb(29,29,42);
+    background: linear-gradient(0deg, rgba(29,29,42,1) 23%, rgba(54,54,75,1) 73%);
+    /*background-color: var(--color-fondo-tarjeta) ;*/
     border-radius: 5px;
   }
   
