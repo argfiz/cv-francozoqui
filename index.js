@@ -10,7 +10,7 @@ const getTecnologias = (tecnologias) => {
 };
 
 const getProyecto = (proyecto) => `
-  <img src='img/proyectos/${proyecto.imagen}' alt='${proyecto.titulo} loading="lazy"' style="width: 100%; height: 250px;  ">
+  <img src='img/proyectos/${proyecto.imagen}' alt='${proyecto.titulo} loading="lazy"' style="width: 100%; height: 200px;  ">
   <div>
     <h3>${proyecto.titulo}</h3>
     <p>${proyecto.descripcion}</p>
@@ -18,7 +18,7 @@ const getProyecto = (proyecto) => `
     <br>
   </div>
   
-  <a ${proyecto.link ? 'href='+proyecto.link : "class=disabled"} style="padding-top: 10px; padding-bottom: 10px; display: inline-block; text-transform: uppercase;"  target="_blank">Ver proyecto</a>
+  <a ${proyecto.link ? 'href='+proyecto.link : "class=disabled"} style="padding-top: 7px; padding-bottom: 7px; display: inline-block; text-transform: uppercase;"  target="_blank">Ver proyecto</a>
 `;
 
 const makePresentacion = () => {
