@@ -27,6 +27,15 @@ const proyectos = [
     tecnologias: ["HTML", "CSS", "Javascript", "Node"],
   },
   {
+    titulo: "Bases de datos con SQL",
+    descripcion:
+      "Capacidad de controlar las bases de datos y SQL; esta especialización proporciona las habilidades esenciales para organizar y manipular datos de manera eficiente. Diseñando esquemas robustos, optimizar consultas y gestionar grandes volúmenes de información. Garantizando la integridad de los datos y su seguridad en entornos dinámicos.",
+    link: "https://platzi.com/p/francozoqui/learning-path/13458-datos-sql/diploma/detalle/",
+    fecha: "23/03/2025",
+    imagen: "diploma-datos-sql.png",
+    tecnologias: ["SQL"],
+  },
+  {
     titulo: "Backend con Node.js",
     descripcion:
       "La especializacion en JavaScript con Node.js me permite crear proyectos backend a alta velocidad usando herramientas avanzadas para escalar y monitorear aplicaciones web.",
