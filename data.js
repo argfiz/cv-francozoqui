@@ -2,16 +2,16 @@ const proyectos = [
   {
     titulo: "E-commerce",
     descripcion:
-      "Una aplicación de comercio electrónico donde demuestro mis habilidades en React, Tailwind CSS, JavaScript, Node.js y PostgreSQL. Este proyecto incluye funciones como un carrito de compras, inicio de sesión y más, demostrando mi capacidad para seguir las mejores prácticas y lograr niveles óptimos de abstracción.",
+      "Una aplicación de comercio electrónico donde demuestro mis habilidades en conexiones API React, Tailwind CSS, JavaScript, Node.js y PostgreSQL. Este proyecto incluye funciones como un carrito de compras, inicio de sesión y más, demostrando mi capacidad para seguir las mejores prácticas y lograr niveles óptimos de abstracción.",
     link: "https://argfiz.github.io/e-commerce/",
     fecha: "10/07/2024",
     imagen: "e-commerce.png",
     tecnologias: ["React","HTML", "CSS", "Tailwind","Javascript"],
   },
   {
-    titulo: "E-commerce my store",
+    titulo: "API E-commerce",
     descripcion:
-      "Permite la gestión de productos, usuarios, ordenes, login, etc. desde el lado del servidor atravez de una APIrest. Utiliza Express.js para facilitar la construccion de una aplicacion web manejando rutas y middleware. Joi para la validación de datos, Boom para control de errores y PostgreSQL como base de datos. Docker, Sequelize para el ORM, bcrypt y passport.",
+      "Permite la gestión de productos a través de una API propia, usuarios, ordenes, login, etc. desde el lado del servidor atravez de una APIrest. Utiliza Express.js para facilitar la construccion de una aplicacion web manejando rutas y middleware. Joi para la validación de datos, Boom para control de errores y PostgreSQL como base de datos. Docker, Sequelize para el ORM, bcrypt y passport.",
     link: "https://github.com/argfiz/e-commerce-my-store",
     fecha: "27/07/2024",
     imagen: "create-customer.png",
