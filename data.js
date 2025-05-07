@@ -124,8 +124,7 @@ const proyectos = [
       ["linkedin", "https://www.linkedin.com/in/franco-zoqui-35453456/"],
       ["github", "https://github.com/argfiz"],
       ["platzi", "https://platzi.com/p/francozoqui/"],
-      ["instagram", "https://www.instagram.com/francozoqui/?hl=es"],
-      ["facebook", "https://www.facebook.com/fizoqui"],
+
     ]
   };
   
