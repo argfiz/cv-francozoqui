@@ -1,5 +1,14 @@
 const proyectos = [
   {
+    titulo: "Fizweb",
+    descripcion:
+      "Es una plataforma de desarrollo web que ofrece servicios de creación de sitios web personalizados front-end, donde demuestro habilidades avanzadas sin ayuda de librerías excepto Swiper.",
+    link: "https://argfiz.github.io/fizweb/",
+    fecha: "18/06/2025",
+    imagen: "fizweb.png",
+    tecnologias: ["HTML", "CSS","Javascript"],
+  },
+  {
     titulo: "E-commerce",
     descripcion:
       "Una aplicación de comercio electrónico donde demuestro mis habilidades en conexiones API React, Tailwind CSS, JavaScript, Node.js y PostgreSQL. Este proyecto incluye funciones como un carrito de compras, inicio de sesión y más, demostrando mi capacidad para seguir las mejores prácticas y lograr niveles óptimos de abstracción.",
