@@ -2,7 +2,7 @@ const proyectos = [
   {
     titulo: "Fizweb",
     descripcion:
-      "Es una plataforma de desarrollo web que ofrece servicios de creación de sitios web personalizados front-end, donde demuestro habilidades avanzadas sin ayuda de librerías excepto Swiper.",
+      "Es una plataforma de desarrollo web que ofrece servicios de creación de sitios web personalizados front-end, donde demuestro habilidades sin ayuda de librerías excepto Swiper.",
     link: "https://argfiz.github.io/fizweb/",
     fecha: "18/06/2025",
     imagen: "fizweb.png",
